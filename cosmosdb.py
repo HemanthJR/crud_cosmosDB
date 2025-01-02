@@ -4,8 +4,8 @@ import uuid
 
 app = Flask(__name__)
 
-URL = "https://cosmosrgeastus2fc6f447-8236-4ea6-985edb.documents.azure.com:443/"
-KEY = "LXhbEKsvyizS1PMulb3Rbvm1SkAZhJ7ikpPy0Y4cLV4kyP5SBoIUsXN7yRs95k10M83lNJ3r8aH3ACDbvScTRQ=="
+URL = "https://fakeurl"
+KEY = "fakekey"
 client = CosmosClient(URL, KEY)
 DATABASE_NAME = 'userDetails'
 CONTAINER_NAME = 'users'
